@@ -299,9 +299,11 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-10 items-center">
             <div className="flex-shrink-0">
-              <div className="w-40 h-40 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center text-white text-6xl font-bold shadow-lg">
-                LS
-              </div>
+              <img
+                src="/rosto.PNG"
+                alt="Leandro Cunha Simões"
+                className="w-40 h-40 rounded-2xl object-cover shadow-lg"
+              />
             </div>
             <div>
               <p className="text-brand-600 font-semibold text-sm tracking-wide uppercase mb-2">
